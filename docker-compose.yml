@@ -19,7 +19,7 @@ services:
   # Web Server Service
   web:
     build: .
-    container_name: monblog-web
+    container_name: monblog-webbb
     restart: always
     ports:
       - "8081:80"
