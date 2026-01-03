@@ -5,7 +5,7 @@ services:
   # Named 'db' to match the hostname used in Modele.php ('mysql:host=db;...')
   db:
     image: mysql:8.0
-    container_name: monblog-db
+    container_name: monblog-dbb
     restart: always
     environment:
       MYSQL_DATABASE: monblog
